@@ -127,10 +127,13 @@ form input::placeholder{
         gap: 40px;
     }
 
-    .info_card,
     form{
         width: 100%;
         height: auto;
+    }
+
+     .info_card{
+        display: none;
     }
 }
 
@@ -174,6 +177,10 @@ form input::placeholder{
         margin-top: 40px;
         padding: 10px;
     }
+
+    .info_card{
+        display: none;
+    }
 }
 
 /* ====================================
@@ -198,5 +205,9 @@ form input::placeholder{
     #submit{
         font-size: 1rem;
         padding: 12px;
+    }
+
+    info_card{
+        display: none;
     }
 }
